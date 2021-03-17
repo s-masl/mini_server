@@ -1,0 +1,192 @@
+[{
+  "_id": {
+    "$oid": "604e5f0ca0182f4770c72e8e"
+  },
+  "name": "apple",
+  "price": 80,
+  "lost": 47,
+  "image": "1615975955826_apple.jpg"
+},{
+  "_id": {
+    "$oid": "604e60caa0182f4770c72e90"
+  },
+  "name": "orange",
+  "price": 140,
+  "lost": 82,
+  "image": "1615975973632_orange.jpg"
+},{
+  "_id": {
+    "$oid": "604e60caa0182f4770c72e91"
+  },
+  "name": "lemon",
+  "price": 200,
+  "lost": 23,
+  "image": "1615975990511_limon.jpg"
+},{
+  "_id": {
+    "$oid": "604e60caa0182f4770c72e93"
+  },
+  "name": "apricot",
+  "price": 234,
+  "lost": 32
+},{
+  "_id": {
+    "$oid": "604e60caa0182f4770c72e94"
+  },
+  "name": "avocado",
+  "price": 370,
+  "lost": 22
+},{
+  "_id": {
+    "$oid": "604e60caa0182f4770c72e95"
+  },
+  "name": "pineapple",
+  "price": 342,
+  "lost": 44
+},{
+  "_id": {
+    "$oid": "604e60caa0182f4770c72e96"
+  },
+  "name": "bergamot",
+  "price": 490,
+  "lost": 36
+},{
+  "_id": {
+    "$oid": "604e60caa0182f4770c72e97"
+  },
+  "name": "durian",
+  "price": 367,
+  "lost": 23
+},{
+  "_id": {
+    "$oid": "604e60caa0182f4770c72e98"
+  },
+  "name": "grapefruit",
+  "price": 299,
+  "lost": 35
+},{
+  "_id": {
+    "$oid": "604e60caa0182f4770c72e9a"
+  },
+  "name": "lime",
+  "price": 345,
+  "lost": 67
+},{
+  "_id": {
+    "$oid": "604f94d0a0182f4770c72e9b"
+  },
+  "name": "plum",
+  "price": 20,
+  "lost": 20
+},{
+  "_id": {
+    "$oid": "604f94d0a0182f4770c72e9c"
+  },
+  "name": "pomegranate",
+  "price": 28,
+  "lost": 39
+},{
+  "_id": {
+    "$oid": "604f94d0a0182f4770c72e9d"
+  },
+  "name": "pomelo",
+  "price": 294,
+  "lost": 3
+},{
+  "_id": {
+    "$oid": "604f94d0a0182f4770c72e9e"
+  },
+  "name": "tangerine",
+  "price": 38,
+  "lost": 294
+},{
+  "_id": {
+    "$oid": "604f94d0a0182f4770c72e9f"
+  },
+  "name": "quince",
+  "price": 293,
+  "lost": 59
+},{
+  "_id": {
+    "$oid": "604f94d0a0182f4770c72ea0"
+  },
+  "name": "persimmon",
+  "price": 295,
+  "lost": 29
+},{
+  "_id": {
+    "$oid": "604f94d0a0182f4770c72ea1"
+  },
+  "name": "papaya",
+  "price": 573,
+  "lost": 29
+},{
+  "_id": {
+    "$oid": "604f94d0a0182f4770c72ea2"
+  },
+  "name": "peach",
+  "price": 204,
+  "lost": 20
+},{
+  "_id": {
+    "$oid": "604f94d0a0182f4770c72ea3"
+  },
+  "name": "melon",
+  "price": 372,
+  "lost": 58
+},{
+  "_id": {
+    "$oid": "604f94d0a0182f4770c72ea4"
+  },
+  "name": "nectarine",
+  "price": 934,
+  "lost": 52
+},{
+  "_id": {
+    "$oid": "604fbdecd707ed41e8e99680"
+  },
+  "name": "barberry",
+  "price": 320,
+  "lost": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "604fbeb4ef8807415ccca88c"
+  },
+  "name": "barberry",
+  "price": 320,
+  "lost": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "604fbf18ef8807415ccca88d"
+  },
+  "name": "barberry",
+  "price": 320,
+  "lost": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "604fbf6a33db51301c6e95b6"
+  },
+  "name": "barberry",
+  "price": 320,
+  "lost": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "604fbfcfd64f2829ec72fcc0"
+  },
+  "name": "barberry",
+  "price": 320,
+  "lost": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6051d5f1a91a6e0de8562471"
+  },
+  "name": "malina",
+  "price": 50,
+  "lost": 17,
+  "__v": 0
+}]
