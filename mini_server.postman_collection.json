@@ -1,0 +1,305 @@
+{
+	"info": {
+		"_postman_id": "c7081fcc-d9ce-4bac-90e7-169948c59a3d",
+		"name": "mini_server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_all_products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/frontend/all/?page=0&perPage=100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"frontend",
+						"all",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "perPage",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_one_product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/frontend/product?id=604e60caa0182f4770c72e90",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"frontend",
+						"product"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "604e60caa0182f4770c72e90"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find_by_name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/frontend/name?page&perPage=2&name=barberry",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"frontend",
+						"name"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": null
+						},
+						{
+							"key": "perPage",
+							"value": "2"
+						},
+						{
+							"key": "name",
+							"value": "barberry"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_in_stock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/frontend/in_stock?page&perPage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"frontend",
+						"in_stock"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": null
+						},
+						{
+							"key": "perPage",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_by_price",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/frontend/price?page&perPage&price=50",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"frontend",
+						"price"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": null
+						},
+						{
+							"key": "perPage",
+							"value": null
+						},
+						{
+							"key": "price",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_new_product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"malina\",\r\n    \"price\": 50,\r\n    \"lost\": 17\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/administration/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"administration",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete_one_product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"604e60caa0182f4770c72e99\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/administration/delete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"administration",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit_product",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"price\": 80\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/administration/edit?id=604e5f0ca0182f4770c72e8e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"administration",
+						"edit"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "604e5f0ca0182f4770c72e8e"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload_photo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "fruits/coconut.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/administration/upload?id=604e60caa0182f4770c72e92",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"administration",
+						"upload"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "604e60caa0182f4770c72e92"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
